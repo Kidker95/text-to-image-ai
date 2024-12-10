@@ -1,0 +1,91 @@
+.Generator {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdf6e3; /* Soft beige */
+    border: 2px solid #ff8c00; /* Vibrant orange border */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+}
+
+.Generator form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Generator label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff4500; /* Vibrant reddish-orange */
+}
+
+.Generator textarea,
+.Generator input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #b0c4de; /* Light steel blue */
+    border-radius: 5px;
+    resize: vertical;
+    background-color: #f0f8ff; /* Alice blue */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.Generator textarea:focus,
+.Generator input[type="text"]:focus {
+    border-color: #4682b4; /* Steel blue */
+    outline: none;
+    background-color: #e0ffff; /* Light cyan */
+}
+
+.Generator button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6a5acd; /* Slate blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Generator button:hover {
+    background-color: #483d8b; /* Dark slate blue */
+}
+
+.Generator img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #32cd32; /* Lime green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fade-in:hover {
+    background-color: #228b22; /* Forest green */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

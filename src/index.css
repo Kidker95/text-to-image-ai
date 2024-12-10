@@ -1,0 +1,121 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3; /* Soft beige */
+    color: #333;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+  
+/* Links */
+a {
+    text-decoration: none;
+    color: #6a5acd; /* Slate blue */
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: #483d8b; /* Dark slate blue */
+}
+  
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+/* Header */
+header {
+    background: #6a5acd; /* Slate blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+  
+/* Footer */
+footer {
+    background: #483d8b; /* Dark slate blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+  
+/* Buttons */
+button {
+    background: #32cd32; /* Lime green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background: #228b22; /* Forest green */
+}
+  
+/* Form */
+form {
+    margin-top: 20px;
+}
+  
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b0c4de; /* Light steel blue */
+    border-radius: 5px;
+    background-color: #f0f8ff; /* Alice blue */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+  
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #4682b4; /* Steel blue */
+    background-color: #e0ffff; /* Light cyan */
+    outline: none;
+}
+  
+form button {
+    display: inline-block;
+}
+  
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+  
+.mt-20 {
+    margin-top: 20px;
+}
+  
+.mb-20 {
+    margin-bottom: 20px;
+}
+  
+.p-10 {
+    padding: 10px;
+}
