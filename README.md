@@ -21,31 +21,6 @@ The Image Generator App allows users to create AI-driven images based on their i
 
 ---
 
-## **Installation**
-
-Follow these steps to set up the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd <project-folder>
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-
----
 
 ## **Technologies Used**
 - **Frontend**: React, React Hook Form
