@@ -29,7 +29,7 @@
         "typescript": "^4.9.5",
         "web-vitals": "^2.1.4"
     },
-    "homepage": " https://Kidker95.github.io/text-to-image-ai/",
+    "homepage": "https://simple-text-to-image-bot.web.app/",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",

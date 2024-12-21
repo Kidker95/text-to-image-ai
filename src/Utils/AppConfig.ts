@@ -2,7 +2,7 @@ import { cyber } from "./Cyber";
 
 class AppConfig {
 	public readonly dalleUrl = "https://api.openai.com/v1/images/generations";
-    private readonly cypherApiKey = "g_!dfc^!D'<g^Kn@kjXj?Y\\mJ-ZUM@Z-\\kB&S5ZJX@>(Ydm%,kmeW\\+kXXMBG)Sn,'dG8I9X?ZaHk?J<E;H'6`V_:>VG@+j*C-AcNK[*+IUi;ZZ,U_IA,G5mj!FjBC7g8>a5JYXi&U@NZ$'_\\\\VXYd:->>$::]ah>m$5";
+    private readonly cypherApiKey = "g_!dfc^!B*%-ee@+SFdG]!eLibB*C&e`+\\N:V+kbgA%+Kk?YEc9nL+e^>eFZ)'Jb^:]^>^Z_>ADDG=\\`dCH'6`V_:>8fhYH=dnZ&H9CCmddknB<g$SWMMNd$[;`,>l5CN^6HGnm8'K6[@EB*&HB@^Xn?)h!h>c?,WUM5";
     public get apiKey(): string {
         return cyber.decrypt(this.cypherApiKey);
     }
